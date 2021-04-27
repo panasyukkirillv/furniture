@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture | Наша мебельная компания - Ваш надёжный поставщик мебельных комплектующих</title>
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+    
+    <!-- Page -->
+    <div class="page">
+
+        <!-- Header -->
+        <header class="header">
+
+            <!-- Bar -->
+            <div class="bar">
+                <div class="container box">
+
+                    <a class="logo" href="#">
+                        <img class="image" src="images/img-logo.png" alt="">
+                    </a>
+
+                    <ul class="call-block box">
+                        <li class="box">
+                            <span class="icon box i-map"></span>
+                            <select class="select" name="city">
+                                <option value="0">Выбрать город</option>
+                                <option value="1">Москва</option>
+                                <option value="2">Тула</option>
+                                <option value="3">Рязань</option>
+                                <option value="4">Липецк</option>
+                                <option value="5">Курск</option>
+                            </select>
+                        </li>
+                        <li class="call-box box">
+                            <span class="icon box i-phone"></span>
+                            <a class="call-link" href="tel:+79038702935">+7 (495)-XXX-XX-XX (Москва)</a>
+                        </li>
+                    </ul>
+
+                    <div class="search-box box">
+                        <input class="search-input" name="search-input" type="text" placeholder="Поиск по сайту..." autocomplete="off">
+                        <button class="search-button box i-search"></button>
+                    </div>
+
+                    <a class="open-request-popup box i-envelope" href="#request"></a>
+
+                </div>
+            </div>
+            <!-- / Bar -->
+
+            <!-- Menu -->
+            <div class="menu">
+                <div class="container">
+
+                    <button class="button">
+                        <span></span>
+                    </button>
+
+                    <nav class="nav">
+                        <ul class="nav-list">
+                            <li><a href="#">Главная</a></li>
+                            <li class="open-nav-sub-list">
+                                <a href="#">Каталог продукции</a>
+                                <ul class="nav-sub-list">
+                                    <li><a href="#">Системы для шкафов купе</a></li>
+                                    <li><a href="#">Наполнение для дверей купе</a></li>
+                                    <li><a href="#">Мебельные фасады</a></li>
+                                    <li><a href="#">Фотопечать на стекле</a></li>
+                                    <li><a href="#">Фотогалерея</a></li>
+                                    <li><a href="#">Мойки, столешницы</a></li>
+                                    <li><a href="#">Каретная стяжка</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Производство</a></li>
+                            <li><a href="#">Фотогалерея</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+            <!-- / Menu -->
+
+        </header>
+        <!-- / Header -->
+                    
+        <!-- Main -->
+        <main class="main">
+
+            <!-- Request -->
+            <section id="request" class="request mfp-hide">
+                
+                <button class="close-button mfp-close"></button>
+                <h2 class="heading">Оставьте контактные данные</h2>
+                <p class="text">и мы свяжемся с вами</p>
+                
+                <p class="success-message">Сообщение успешно отправлено!</p>
+                <p class="error-message">Сообщение не отправлено...</p>
+
+                <!-- Request Form -->
+                <form id="request-form" class="request-form" action="index.php" method="POST">
+                    <div class="form-group">
+                        <label for="destination">Выберите адресата</label>
+                        <select id="destination" name="destination">
+                            <option value="1" selected>Отдел продаж</option>
+                            <option value="2">Отдел продаж 2</option>
+                            <option value="3">Отдел продаж 3</option>
+                            <option value="4">Отдел продаж 4</option>
+                            <option value="5">Отдел продаж 5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Как к Вам обращаться?</label>
+                        <input id="name" name="name" type="text" placeholder="Диана" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Номер телефона</label>
+                        <input  id="phone" name="phone" type="text" placeholder="+7 (___)-__-__-__" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input  id="email" name="email" type="text" placeholder="example@mail.ru" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Письмо</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+                    <button class="button button-link" type="submit">Отправить</button>
+                    <div class="form-group confirmation-group">
+                        <label for="confirmation">
+                            <input id="confirmation" name="confirmation" type="checkbox">
+                            <i></i>
+                            <span>Я согласен на обработку персональных данных</span>
+                        </label>
+                    </div>
+                </form>
+                <!-- / Request Form -->
+
+            </section>
+            <!-- / Request -->
+
+            <!-- Hero -->
+            <div class="hero" style="background-image: url('images/bg-hero.png');">
+                <div class="container">
+                    <div class="content">
+                        <h1 class="title">Наша мебельная компания - Ваш надёжный поставщик мебельных комплектующих</h1>
+                        <a class="button-link" href="#">Перейти в каталог</a>
+                    </div>
+                </div>
+            </div>
+            <!-- / Hero -->
+
+            <!-- Catalog -->
+            <div class="catalog">
+                <div class="container">
+                    <div class="row row-cols-md-2 row-cols-lg-3">
+                        <div class="col">
+                            <a class="item" href="#">
+                                <img class="image" src="pictures/img-catalog-item-1.jpg" alt="">
+                                <span class="overlay-block">Системы для шкафов-купе</span>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="item" href="#">
+                                <img class="image" src="pictures/img-catalog-item-2.jpg" alt="">
+                                <span class="overlay-block">Наполнение для дверей-купе</span>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="item" href="#">
+                                <img class="image" src="pictures/img-catalog-item-3.jpg" alt="">
+                                <span class="overlay-block">Мебельные фасады</span>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="item" href="#">
+                                <img class="image" src="pictures/img-catalog-item-4.jpg" alt="">
+                                <span class="overlay-block">Фотопечать на стекле</span>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="item" href="#">
+                                <img class="image" src="pictures/img-catalog-item-5.jpg" alt="">
+                                <span class="overlay-block">Мойки, столешницы</span>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="item" href="#">
+                                <img class="image" src="pictures/img-catalog-item-6.jpg" alt="">
+                                <span class="overlay-block">Каретная стяжка</span>
+                            </a>
+                        </div>
+                    </div>
+                    <a class="button-link" href="#">Перейти в каталог</a>
+                </div>
+            </div>
+            <!-- / Catalog -->
+
+            <!-- Gallery -->
+            <section class="gallery" style="background-image: url('images/bg-gallery.png');">
+                <h2 class="heading">Галерея</h2>
+                <!-- Slider -->
+                <div class="slider">
+                    <div class="slider-arrows-wrapper">
+                        <div class="slider-arrows container"></div>
+                    </div>
+                    <div class="slider-track">
+                        <div class="slider-item">
+                            <div class="item">
+                                <a class="overlay-link image-popup-fit-width" href="pictures/img-catalog-item-1.jpg" title="This image fits only horizontally.">
+                                    <img class="image" src="pictures/img-gallery-item-1.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <div class="item">
+                                <a class="overlay-link image-popup-fit-width" href="pictures/img-catalog-item-2.jpg" title="This image fits only horizontally.">
+                                    <img class="image" src="pictures/img-gallery-item-2.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <div class="item">
+                                <a  class="overlay-link image-popup-fit-width" href="pictures/img-catalog-item-3.jpg" title="This image fits only horizontally.">
+                                    <img class="image" src="pictures/img-gallery-item-3.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <div class="item">
+                                <a class="overlay-link image-popup-fit-width" href="pictures/img-catalog-item-4.jpg" title="This image fits only horizontally.">
+                                    <img class="image" src="pictures/img-gallery-item-1.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <div class="item">
+                                <a class="overlay-link image-popup-fit-width" href="pictures/img-catalog-item-5.jpg" title="This image fits only horizontally.">
+                                    <img class="image" src="pictures/img-gallery-item-2.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <div class="item">
+                                <a class="overlay-link image-popup-fit-width" href="pictures/img-catalog-item-6.jpg"  title="This image fits only horizontally.">
+                                    <img class="image" src="pictures/img-gallery-item-3.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- / Slider -->
+            </section>
+            <!-- / Gallery -->
+        </main>
+        <!-- / Main -->
+
+        <!-- Footer -->
+        <footer class="footer">
+            
+            <div class="container">
+                <div class="row">
+
+                    <div class="col col-sm-6 col-lg-3 col-xl-2">
+                        <img src="images/img-logo.png" alt="">
+                    </div>
+
+                    <div class="col col-sm-6 col-lg-3 col-xl-2">
+                        <h3 class="heading">Разделы сайта</h3>
+                        <ul class="link-list">
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Каталог продукции</a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Призводство</a></li>
+                            <li><a href="#">Фотогалерея</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col col-sm-6 col-lg-3 col-xl-4">
+                        <h3 class="heading">Каталог продукции</h3>
+                        <ul class="link-list">
+                            <li><a href="#">Системы для шкафов купе</a></li>
+                            <li><a href="#">Наполнение для дверей купе</a></li>
+                            <li><a href="#">Мебельные фасады</a></li>
+                            <li><a href="#">Фотопечать на стекле</a></li>
+                            <li><a href="#">Фотогалерея</a></li>
+                            <li><a href="#">Мойки, столешницы</a></li>
+                            <li><a href="#">Каретная стяжка</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col col-sm-6 col-lg-3 col-xl-4">
+                        <h3 class="heading">Контакты</h3>
+                        <ul class="link-list">
+                            <li>Наши города:</li>
+                            <li><a href="#">г. Москва</a></li>
+                            <li><a href="#">г. Тула</a></li>
+                            <li><a href="#">г. Рязань</a></li>
+                            <li><a href="#">г. Липецк</a></li>
+                            <li><a href="#">г. Курск</a></li>
+                            <li><a href="#">Посмотреть все</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container copyright-block">
+                <p class="copyright"><a href="#">Политика конфиденциальности</a> &copy; 2019 Все права защищены</p>
+            </div>
+
+        </footer>
+        <!-- / Footer -->
+
+    </div>
+    <!-- / Page -->
+
+    <!-- Scripts -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- / Scripts -->
+
+</body>
+</html>
